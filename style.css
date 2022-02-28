@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gameboard {
+    display: grid;
+    grid-template-rows: 75px 75px 75px;
+    grid-template-columns: 75px 75px 75px;
+    margin-bottom: 25px;
+}
+
+.box0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: black solid 2px;
+    border-right: black solid 2px;
+    justify-items: center;
+}
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: black solid 2px;
+    border-left: black solid 2px;
+    border-right: black solid 2px;
+}
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: black solid 2px;
+    border-left: black solid 2px;
+}
+.box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: black solid 2px;
+    border-top: black solid 2px;
+    border-right: black solid 2px;
+}
+.box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid 2px;
+}
+.box5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: black solid 2px;
+    border-top: black solid 2px;
+    border-left: black solid 2px;
+}
+.box6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: black solid 2px;
+    border-right: black solid 2px;
+}
+.box7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: black solid 2px;
+    border-top: black solid 2px;
+    border-left: black solid 2px;
+}
+.box8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: black solid 2px;
+    border-left: black solid 2px;
+}
+
+#message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#reset-game-button {
+    outline-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px;
+}
